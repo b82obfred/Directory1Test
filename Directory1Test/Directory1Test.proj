@@ -13,6 +13,9 @@
     <AndroidHardwareAcceleration>false</AndroidHardwareAcceleration>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include=".sencha" />
+    <Folder Include=".sencha\app" />
+    <Folder Include=".sencha\workspace" />
     <Folder Include="app" />
     <Folder Include="app\controller" />
     <Folder Include="app\model" />
@@ -251,6 +254,11 @@
     <Resource Include="App_Resources\Android\drawable-nodpi\splashscreen.9.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".sencha\app\build-impl.xml" />
+    <Content Include=".sencha\app\plugin.xml" />
+    <Content Include=".sencha\app\sencha.cfg" />
+    <Content Include=".sencha\workspace\plugin.xml" />
+    <Content Include=".sencha\workspace\sencha.cfg" />
     <Content Include="app.js" />
     <Content Include="app.json" />
     <Content Include="app\controller\DealsDirectory.js" />
